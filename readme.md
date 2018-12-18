@@ -9,6 +9,11 @@
 
 ### 版本回退
 + `git log --pretty=oneline`
++ `git reset --hard <id>`
+  - HEAD表示当前版本，上一个版本就是HEAD^，HEAD^^, HEAD~100
+  - --hard 
++ 记录每次命令 `git reflog`
+
 
 ### 分支命令
 + 查看分支  `git branch -a`
