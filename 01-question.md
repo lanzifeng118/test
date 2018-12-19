@@ -1,0 +1,25 @@
+# 常遇问题
++ 提交代码有冲突
+  ```
+   An error occurred while sending the request.
+   ! rejected release-readme -> release-readme (non-fast-forward)
+   error: failed to push some refs to 'https://github.com/XXX/test.git'
+   hint: Updates were rejected because the tip of your current branch is behind
+  ```
++ 拉取代码有冲突
+  ```git
+  error: Pulling is not possible because you have unmerged files.
+  hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+  hint: as appropriate to mark resolution and make a commit.
+  fatal: Exiting because of an unresolved conflict.
+  ```
+  ```
+  error: Your local changes to the following files would be overwritten by merge:
+        readme.md
+  Please commit your changes or stash them before you merge.
+  ```
++ 代码已commit，发现有问题，需要回退
++ 代码已push，发现有问题，需要回滚
++ 切换分支有冲突
+
+  ![](images/checkout-branch.jpg)

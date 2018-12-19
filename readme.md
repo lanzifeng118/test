@@ -1,18 +1,25 @@
 # 文档
 
 ### 提交
-+ `git add`
-+ `git commit -m ""`
++ 暂存 `git add <file>`
+
+  ![](images/add.png)
+
 + 当前状态 `git status`
++ 取消暂存 `git reset HEAD <file>`
++ 提交 `git commit -m ""`
+
+  ![](images/commit.png) 
+  
 + 查看修改内容 `git diff <file>`
 + `git push`
 
 ### 版本回退
-+ `git log --pretty=oneline`
++ 日志记录 `git log --pretty=oneline`
++ 命令记录 `git reflog`
 + `git reset --hard <id>`
   - HEAD表示当前版本，上一个版本就是HEAD^，HEAD^^, HEAD~100
   - --hard 
-+ 记录每次命令 `git reflog`
 
 ### 工作区和暂存区
 + 暂存区 `.git/index`
