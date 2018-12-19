@@ -25,3 +25,6 @@
   + modified: 文件已修改, 仅仅是修改, 并没有进行其他的操作
   + staged: 暂存状态
   <img src="images/status.png" width="600"/>
+
+### 分支管理
+  + 
