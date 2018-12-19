@@ -27,4 +27,4 @@
   <img src="images/status.png" width="600"/>
 
 ### 分支管理
-  + 乱码呀 
+  + 修复
