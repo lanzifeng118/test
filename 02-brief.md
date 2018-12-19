@@ -26,5 +26,12 @@
   + staged: 暂存状态
   <img src="images/status.png" width="600"/>
 
+### git工具 储藏Stashing
+  + 获取你工作目录的中间状态，并将它保存到一个未完结变更的堆栈中，随时可以重新应用
+  + 查看 `git stash list`
+  + 储藏 `git stash`
+  + 应用 `git stash apply <name>` 或者 `git stash pop`
+  + 删除 `git stash drop <name>`
+
 ### 分支管理
-  + hhh
+  + 
