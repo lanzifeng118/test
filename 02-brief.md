@@ -27,11 +27,14 @@
   <img src="images/status.png" width="600"/>
 
 ### git工具 储藏Stashing
+  + 开发到一半,同步远端代码、工作流被打断,需要先做别的需求
   + 获取你工作目录的中间状态，并将它保存到一个未完结变更的堆栈中，随时可以重新应用
   + 查看 `git stash list`
   + 储藏 `git stash`
   + 应用 `git stash apply <name>` 或者 `git stash pop`
   + 删除 `git stash drop <name>`
+  + 查看diff `git stash show -p <name>`
+  + 创建分支 `git stash branch <branchName>`
 
 ### 分支管理
   + 
