@@ -15,6 +15,7 @@
   - HEAD表示当前版本，上一个版本就是HEAD^，HEAD^^, HEAD~100
   - --hard 
 
+hh
 ### 分支命令
 + 查看分支  `git branch -a`
 + 创建分支  `git branch <name>`
