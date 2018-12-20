@@ -26,7 +26,8 @@
   + unmodified 文件已经入库, 未修改
   + modified: 文件已修改, 仅仅是修改, 并没有进行其他的操作
   + staged: 暂存状态
-  <img src="images/status.png" width="600"/>
+  <img src="images/status.jpg" width="600" style="display: block;"/>
+  <img src="images/status.png" width="600" style="display: block;"/>
 
 ### git工具 储藏Stashing
   + 开发到一半,同步远端代码、工作流被打断,需要先做别的需求
@@ -68,3 +69,4 @@
   + 合并某分支到当前分支：`git merge <name>`
   + 删除分支：`git branch -d <name>`
   + 删除远程分支 `git push origin --delete <name>`
+  
