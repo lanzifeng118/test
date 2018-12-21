@@ -27,6 +27,7 @@
 + `git push origin <name>` 发布分支到远程 
 + `git push origin --delete <name>` 删除远程分支 
 + `git merge <name>` 合并某分支到当前分支
++ `git fetch origin develop:develop` 拉取远程分支
 
 ### 储藏
 + `git stash list` 查看 
